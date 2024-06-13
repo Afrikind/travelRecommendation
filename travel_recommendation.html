@@ -71,6 +71,25 @@
             margin: 20px;
             border-radius: 10px;
         }
+        .recommendations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .recommendation {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 10px;
+            max-width: 200px;
+            text-align: center;
+            background-color: white;
+            color: black;
+        }
+        .recommendation img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
         #Book {
             padding: 6px 10px;
             margin-right: 8px;
@@ -106,22 +125,38 @@
     <div class="intro">
         <h1>Welcome to Travel Recommendations</h1>
         <p>Explore the best travel destinations, tips, and guides to make your journeys unforgettable. Whether you're planning a weekend getaway or a long vacation, we provide you with comprehensive recommendations to suit your preferences and budget. Discover new places, experiences, and make the most out of your travels with our expert advice and user-generated reviews.</p>
+        <h1>Travel Recommendations</h1>
+        <div class="recommendations" id="countries">
+            <h2>Countries</h2>
+            <div id="countries-content"></div>
+        </div>
+        <div class="recommendations" id="temples">
+            <h2>Temples</h2>
+            <div id="temples-content"></div>
+        </div>
+        <div class="recommendations" id="beaches">
+            <h2>Beaches</h2>
+            <div id="beaches-content"></div>
+        </div>
+        <div class="recommendations" id="results">
+            <!-- Search results will be displayed here -->
+        </div>
     </div>
 
     <button id="Book">BOOK NOW</button>
 
     <script>
         function search() {
-            // Add your search functionality here
+            // search functionality here
             const searchQuery = document.getElementById('searchInput').value;
             console.log('Searching for:', searchQuery);
-            // Implement search logic
+            // Implement search logic here
         }
 
         function reset() {
             document.getElementById('searchInput').value = '';
             console.log('Search reset');
-            // Implement reset logic
+            // reset logic here
         }
     </script>
 </body>

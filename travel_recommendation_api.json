@@ -61,6 +61,12 @@
             "name": "Taj Mahal, India",
             "imageUrl": "Abb2.jpg",
             "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+        },
+        {
+            "id": 3,
+            "name": "Wat Arun, Thailand",
+            "imageUrl": "Abb5.jpg",
+            "description": "A Forestral temple known for its striking architectural design and riverside location."
         }
     ],
     "beaches": [
@@ -75,6 +81,12 @@
             "name": "Copacabana Beach, Brazil",
             "imageUrl": "Abb1.jpg",
             "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+        },
+        {
+            "id": 3,
+            "name": "Wat Arun, Thailand",
+            "imageUrl": "Abb7.jpg",
+            "description": "A landmark temple known for its striking architectural design and riverside location."
         }
     ]
 }
